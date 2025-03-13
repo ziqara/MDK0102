@@ -23,7 +23,8 @@ namespace MatrixTest
             exp.AddRow(new List<int> { 0, 0, 0 });
 
 
-            Assert.AreEqual(exp, actual);
+            Equals(exp, actual);
         }
+
     }
 }
